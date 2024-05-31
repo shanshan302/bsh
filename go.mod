@@ -1,6 +1,6 @@
 module bsh
 
-go 1.22.3
+go 1.22
 
 require github.com/kataras/iris/v12 v12.2.11
 
