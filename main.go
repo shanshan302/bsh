@@ -31,7 +31,6 @@ func list(ctx iris.Context) {
 	}
 
 	ctx.JSON(books)
-	// 提示: 在服务器优先级和客户端请求中进行响应协商，
 	// 以此来代替 ctx.JSON:
 	// ctx.Negotiation().JSON().MsgPack().Protobuf()
 	// ctx.Negotiate(books)
